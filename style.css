@@ -1,0 +1,21 @@
+:root{
+    --box-color: rgb(24, 124, 158);
+    --tex-color: rgb(255, 255, 255);
+}
+.box{
+    --box-color: rgb(24, 124, 158);
+    border: 2px;
+    background-color: var(--box-color);
+
+}
+h1{
+    /* color: var(--tex-color) */
+}
+/* css selector */
+p{}
+/* .red{
+    color: green !important;
+} */
+div:nyh-child(){
+    color: red;
+}
